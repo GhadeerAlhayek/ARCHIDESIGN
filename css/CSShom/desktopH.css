@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    font-family: "Nunito";
+   }
+
+   body {
+    margin: 0;
+   
+   }
+
+   footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #444444;
+    color: white;
+    text-transform: lowercase;
+   }
+   
+   
+   
+   footer p:first-letter {
+    text-transform: uppercase;
+   }
+
+   header {
+    background-color: #00748D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: bold;
+   }
+
+   .header-a a {
+    color: white;
+    text-decoration: none;
+    padding: 20px
+   }
+
+   header span,
+   .main_footer  {
+    color: white;
+    font-size: 1.5em;
+   }
+   .main_footer {
+    background-color: #00748D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: bold;
+
+   }
+   .section_main_margin {
+    
+    margin: 0 80px;
+   }
+   .section_first_contaner {
+    display: flex;
+    background-image: url("../../images/bg-header.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 475px;
+    justify-content: center;
+    align-items: center;
+    
+
+   }
+
+   .section_first_contaner_div h2 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: 15px auto;
+    background-color: #CB8606 ;
+    
+   }
+
+   .section_first_contaner_div p {
+    color: #00748D;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px auto;
+    background-color: white ;
+    
+   }
+   .H3 {
+    color: #00748D;
+    font-size: 25px;
+    text-align: center;
+    margin: 15px auto;
+    background-color: white ;
+
+   }
+   .section_second_contaner {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    
+
+    margin: 20px 0;
+
+   }
+
+   .section_second_contaner_div a {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin: 15px auto;
+    background-color: #00748D ;
+    padding: 10px 20px;
+    text-decoration: none;
+   
+    
+
+
+   }
+  
+  
+
+
+
+   .section_third_contaner_logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+   }
+
+   .section_third_contaner_logos_h3 {
+    color: #00748D;
+    font-size: 25px;
+    text-align: center;
+    margin: 15px auto;
+    background-color: white ;
+   }
+
+   .section_third_contaner_logos_img  {
+    display: flex;
+    gap: 90px;
+    margin: 10px auto;
+    
+   }
+   .section_third_contaner_logos_img img {
+    width: 200px;
+    height: 200px;
+    border: #00748D 2px solid;
+
+   }
